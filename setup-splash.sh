@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Find the splash image
-SPLASH_IMAGE="/home/rock/Book your ePoster Slot.png"
+SPLASH_IMAGE="/home/rock/no_boot_logs_radxa/Book your ePoster Slot.png"
 
 # If not found, look for any PNG in home directory or subdirectory
 if [ ! -f "$SPLASH_IMAGE" ]; then
