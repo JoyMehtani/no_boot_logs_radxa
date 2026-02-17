@@ -5,7 +5,7 @@ SPLASH_IMAGE="/home/rock/Book your ePoster Slot.png"
 
 # If not found, look for any PNG in home directory
 if [ ! -f "$SPLASH_IMAGE" ]; then
-    SPLASH_IMAGE=$(find /home/rock -maxdepth 1 -name "*.png" | head -1)
+    SPLASH_IMAGE=$(find /home/rock -maxdepth 2 -name "*.png" | head -1)
 fi
 
 if [ ! -f "$SPLASH_IMAGE" ]; then
