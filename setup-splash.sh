@@ -81,6 +81,8 @@ kill $FEH_PID 2>/dev/null
 pkill -f feh 2>/dev/null
 EOF
 chmod +x /home/rock/splash-wrapper.sh
+sudo cd /home/rock
+sudo bash splash-wrapper.sh
 
 # 5. Create autostart entry and disable KDE splash
 echo "[5/5] Creating autostart entry and disabling KDE splash..."
