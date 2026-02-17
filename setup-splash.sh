@@ -51,7 +51,7 @@ NEW_CMDLINE="$NEW_CMDLINE vt.global_cursor_default=0 rd.systemd.show_status=fals
 echo "$NEW_CMDLINE" | sudo tee /etc/kernel/cmdline
 echo "Kernel cmdline updated to:"
 cat /etc/kernel/cmdline
-EOF
+
 
 # 3. Update extlinux.conf
 echo "[3/7] Updating bootloader config..."
